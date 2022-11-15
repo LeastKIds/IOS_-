@@ -36,7 +36,7 @@ struct ContentView: View {
             }   // VStack
             
             if isPicking {
-                Rectangle()
+                ImagePicker()
                     .edgesIgnoringSafeArea(.all)
                     .transition(.move(edge: .bottom))
                     .animation(.easeInOut)
