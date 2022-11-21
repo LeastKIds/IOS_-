@@ -17,8 +17,11 @@ class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerContro
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let uiImage = info[.originalImage] as! UIImage
         UIImageWriteToSavedPhotosAlbum(uiImage, nil, nil, nil)
+        parrent.image = Image(uiImage: uiImage.redraw())
+        parrent.isPicking = false
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        parrent.isPicking = false
     }
 }

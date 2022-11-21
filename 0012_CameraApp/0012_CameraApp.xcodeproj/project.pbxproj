@@ -13,6 +13,7 @@
 		55A382052921D3CC00D96789 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A382042921D3CC00D96789 /* Preview Assets.xcassets */; };
 		55A3820C2923188D00D96789 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A3820B2923188C00D96789 /* ImagePicker.swift */; };
 		55BFF5CB2923236500F0CE48 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFF5CA2923236500F0CE48 /* Coordinator.swift */; };
+		55BFF5CD292B12F700F0CE48 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFF5CC292B12F700F0CE48 /* UIImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		55A382042921D3CC00D96789 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55A3820B2923188C00D96789 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		55BFF5CA2923236500F0CE48 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		55BFF5CC292B12F700F0CE48 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				55A381FF2921D3CB00D96789 /* ContentView.swift */,
 				55BFF5CA2923236500F0CE48 /* Coordinator.swift */,
 				55A3820B2923188C00D96789 /* ImagePicker.swift */,
+				55BFF5CC292B12F700F0CE48 /* UIImageExtensions.swift */,
 				55A382012921D3CC00D96789 /* Assets.xcassets */,
 				55A382032921D3CC00D96789 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				55BFF5CB2923236500F0CE48 /* Coordinator.swift in Sources */,
 				55A3820C2923188D00D96789 /* ImagePicker.swift in Sources */,
+				55BFF5CD292B12F700F0CE48 /* UIImageExtensions.swift in Sources */,
 				55A382002921D3CB00D96789 /* ContentView.swift in Sources */,
 				55A381FE2921D3CB00D96789 /* _012_CameraAppApp.swift in Sources */,
 			);

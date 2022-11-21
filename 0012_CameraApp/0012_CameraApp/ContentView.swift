@@ -36,7 +36,7 @@ struct ContentView: View {
             }   // VStack
             
             if isPicking {
-                ImagePicker()
+                ImagePicker(image: $image, isPicking: $isPicking)
                     .edgesIgnoringSafeArea(.all)
                     .transition(.move(edge: .bottom))
                     .animation(.easeInOut)
